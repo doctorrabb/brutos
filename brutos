@@ -14,7 +14,9 @@ TYPE_LIST_STR = ''
 LOGIN_LIST = None
 PASSWORD_LIST = None
 
-for i in os.listdir ('scripts'): TYPE_LIST_STR += ('\n' + i.replace('.py', ''))
+for i in os.listdir ('scripts'): 
+    if i != '__init__.py':
+        TYPE_LIST_STR += ('\n' + i.replace('.py', ''))
 
 op = OptionParser ('--one-login <login> --llist <path to login-list file> -d <path to dictionary with passwords> --brute-type <brute-type>')
 op.add_option ('--one-login', dest='ologin', type='string', help='if you want to use one login and brute it, than set login at this flag')
