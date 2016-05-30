@@ -1,5 +1,1 @@
-You can brute:
-1. SMTP
-2. FTP
-To be continued..... :)
-
+<h1>This is BRUTOS - universal brute tool</h1>
