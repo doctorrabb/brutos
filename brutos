@@ -5,7 +5,7 @@ import os
 from optparse import OptionParser
 from colorama import Fore
 
-from modules import brute_types, output
+from core import brute_types, output
 
 
 # -------------- #

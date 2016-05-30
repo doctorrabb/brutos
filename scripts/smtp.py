@@ -5,7 +5,7 @@ class Brute (object):
 
     def run (self, **kwargs):
         from smtplib import SMTP
-        from modules import output
+        from core import output
 
         if self.port is not None:
             s = SMTP(self.serv, self.port)

@@ -1,6 +1,6 @@
 # coding: utf8
 
-from modules.output import ERR, YES, NO
+from core.output import ERR, YES, NO
 
 try:
     from requests.auth import HTTPBasicAuth, HTTPDigestAuth

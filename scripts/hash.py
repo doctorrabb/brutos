@@ -1,4 +1,4 @@
-from modules import output
+from core import output
 
 class Brute (object):
     def __init__ (self):
