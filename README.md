@@ -1,6 +1,6 @@
 <h1>This is BRUTOS - universal brute tool</h1>
 ################################################################################
-# <p>Enter "./brutos --help" to get more information about brutos options.</p> #
+# <p><h5>Enter "./brutos --help" to get more information about brutos options.</h5></p> #
 ################################################################################
 
 How to write module:
