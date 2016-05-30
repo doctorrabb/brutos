@@ -4,9 +4,9 @@
 ################################################################################
 
 How to write module:
-  1) Create class Brute in your module
-  2) Get some options from user in __init__
-  3) Create function run with arguments self and **kwargs
-  4) Move your module in brutos_folder/scripts
+  <br>1) Create class Brute in your module
+  <br>2) Get some options from user in __init__
+  <br>3) Create function run with arguments self and **kwargs
+  <br>4) Move your module in brutos_folder/scripts
   
   (See some default modules)
