@@ -15,7 +15,7 @@ LOGIN_LIST = None
 PASSWORD_LIST = None
 
 for i in os.listdir ('scripts'): 
-    if not '__init__' in i:
+    if not '__init__' in i and not i in TYPE_LIST_STR:
         TYPE_LIST_STR += ('\n' + i.split ('.')[0])
 
 op = OptionParser ('--one-login <login> --llist <path to login-list file> -d <path to dictionary with passwords> --brute-type <brute-type>')
