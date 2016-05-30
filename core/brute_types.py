@@ -16,7 +16,6 @@ SHOW_GOODS = 1
 def load_scripts ():
     RETR = dict ()
     for i in os.listdir ('scripts/'):
-        print
         RETR [i.replace ('.py', '')] = __import__ ('scripts.' + i.replace ('.py', ''))
     return RETR
 
